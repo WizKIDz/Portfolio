@@ -3,44 +3,52 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/main.css" media="screen" title="Main" charset="utf-8">
-  <link rel="stylesheet" href="css/main-medium.css" media="screen and (min-width: 500px;)" title="Main" charset="utf-8">
-  <link rel="stylesheet" href="css/main-small.css" media="screen and (max-width: 500px;)" title="Main" charset="utf-8">
+  <link rel="stylesheet" href="css/main.css" title="Main" charset="utf-8">
+  <link rel="stylesheet" media="(min-width: 600px)" href="css/main-medium.css" >
+  <link rel="stylesheet" media="(max-width: 600px)" href="css/main-small.css" >
   <title>Austin Crane</title>
 </head>
 <body>
   <div class="main">
     <div class="row top">
-      <div class="left">
-        <img class="logo" src="css/img/logo.jpg" alt="logo" />
-      </div>
-      <div class="title right">
-        <h2>Austin Crane</h2>
+      <img class="logo" src="css/img/logocoffee.svg" alt="" />
+      <div class="spacer"></div>
+      <div class="title">
+        <h1 class="text-right main-title">Austin Crane</h2>
+        <h5 class="text-right subtitle">Front End Master</h2>
       </div>
     </div>
     <div class="middle">
-      <div class="colors">
-      </div>
-      <div class="hero">
+      <div id="hero-title">
+        <img class="my-picture" src="https://pbs.twimg.com/profile_images/635825469078704128/RaIwGUBj.jpg" alt="" />
+        <a href="https://twitter.com/austinmcrane">
+          <h1 class="text-center">@AustinMCrane</h1>
+        </a>
       </div>
     </div>
-    <div class="bottom">
-      <div class="item">
-        <div class="image">
+      <h1 class="text-left work">Featured Work</h1>
+      <div class="bottom">
+        <div id="one" class="item">
+          <a href="https://itunes.apple.com/us/app/shocker-shuttle-tracker/id918620466?mt=8">
+          <img class="image" src="css/img/busapp.jpeg" alt="Bus App" />
+        </a>
+          <div class="content">
+            <h3 class="text-center small-title">WSU Shuttle App</h3>
+          </div>
         </div>
-        <div class="content">
+        <div id="two" class="item">
+          <a href="https://itunes.apple.com/us/app/sleepy-head!-alarm-clock/id973783418?mt=8">
+          <img class="image" src="css/img/alarmclock.png" alt="Alarm Clock" />
+        </a>
+          <div class="content">
+              <h3 class="text-center small-title">Sleepyhead! Alarm Clock</h3>
+          </div>
         </div>
-      </div>
-      <div class="item">
-        <div class="image">
-        </div>
-        <div class="content">
-        </div>
-      </div>
-      <div class="item">
-        <div class="image">
-        </div>
-        <div class="content">
+        <div id="three" class="item">
+          <img class="image" src="css/img/startuphq.png" alt="Startup HQ" />
+          <div class="content">
+            <h3 class="text-center small-title">Startup HQ</h3>
+          </div>
         </div>
       </div>
     </div>
