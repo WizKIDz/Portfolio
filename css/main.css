@@ -19,6 +19,7 @@ html, body {
     height: 100%;
     color: #404040;
     font-family: 'Roboto-Light', monospace;
+
 }
 
 .main {
@@ -38,6 +39,7 @@ html, body {
     display: flex;
     height: 100px;
     max-height: 40%;
+    background-color: white;
 }
 
 .middle {
@@ -74,6 +76,7 @@ html, body {
     height: 200px;
     width: 100%;
     display: flex;
+
 }
 
 .item {
@@ -174,7 +177,16 @@ html, body {
     border-radius: 50%;
 }
 
+
 a {
     color: white;
     text-decoration: none;
+}
+
+
+.about{
+  background-color: #DA664D;
+  color: white;
+  padding: 8px;
+  margin-top: 8px;
 }
