@@ -96,7 +96,7 @@ html, body{
 }
 .title{
   font-family: 'Roboto-Light-Italic';
-  width: 70%;
+  width: 80%;
   order: 3;
   margin: 0;
   margin-right: 8px;
@@ -114,7 +114,7 @@ html, body{
 }
 .spacer{
   order: 2;
-  width: 50%;
+  width: 40%;
   /*background-color: yellow;*/
 }
 .text-right{
