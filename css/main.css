@@ -1,17 +1,15 @@
 @font-face {
-    font-family: 'Roboto-Light-Italic';
-    src: url('fonts/Roboto-LightItalic.ttf');
+  font-family: 'Roboto-Light-Italic';
+  src: url('fonts/Roboto-LightItalic.ttf');
 }
 @font-face {
-    font-family: 'Roboto-Light';
-    src: url('fonts/Roboto-Light.ttf');
+  font-family: 'Roboto-Light';
+  src: url('fonts/Roboto-Light.ttf');
 }
 @font-face {
-    font-family: 'Roboto-Medium';
-    src: url('fonts/Roboto-Medium.ttf');
+  font-family: 'Roboto-Medium';
+  src: url('fonts/Roboto-Medium.ttf');
 }
-
-/* Box 1 */
 html, body{
   margin: 0;
   width: 100%;
@@ -114,7 +112,6 @@ html, body{
   font-family: 'Roboto-Light-Italic';
   font-size: 12pt;
 }
-
 .spacer{
   order: 2;
   width: 50%;
